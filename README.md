@@ -18,10 +18,10 @@ Envie o conteúdo desta pasta para um repositório GitHub e importe o repositór
 
 ## Checkout
 
-O botão final já tem o design e a interação prontos. Enquanto não houver URL, ele mostra um aviso curto ao clicar e permanece na página. Quando tiver o checkout, edite a constante no começo de `script.js`:
+O botão final leva ao checkout da Kiwify. Se o link mudar, edite o `href` do botão `¡SÍ! QUIERO ESTA OFERTA` em `index.html`:
 
 ```js
-const CHECKOUT_URL = 'https://link-do-checkout-aqui';
+href="https://pay.kiwify.com.br/s86frUi"
 ```
 
 Os demais botões da página levam até a seção da oferta.

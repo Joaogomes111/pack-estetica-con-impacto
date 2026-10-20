@@ -139,6 +139,9 @@ p { color: var(--muted); }
 .bonus-card p { margin-bottom: 16px; font-size: 13px; line-height: 1.6; }
 .bonus-card img { max-height: 265px; justify-self: center; object-fit: contain; }
 .bonus-price { font-size: 21px; }
+.bonus-card--ideas { grid-template-columns: minmax(0, .78fr) minmax(0, 1.22fr); }
+.bonus-preview { display: flex; align-items: center; justify-content: center; min-width: 0; gap: 8px; padding: 12px; border-radius: 8px; background: #eee5dc; }
+.bonus-card .bonus-preview img { width: calc(50% - 4px); max-height: 250px; height: auto; border-radius: 5px; box-shadow: 0 6px 15px rgba(48, 31, 23, .16); }
 
 .adapt-section { background: var(--paper); }
 .adapt-section .section-heading { margin-bottom: 45px; }
@@ -300,6 +303,8 @@ p { color: var(--muted); }
   .compare-card { min-height: auto; }
   .bonus-card { grid-template-columns: 1fr; }
   .bonus-card img { max-height: 195px; }
+  .bonus-card--ideas { grid-template-columns: 1fr; }
+  .bonus-card .bonus-preview img { max-height: 220px; }
   .canva-inner { gap: 17px; }
   .canva-inner img { width: 67px; height: 67px; }
   .price-card { padding: 24px 18px 46px; }
