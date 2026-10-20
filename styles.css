@@ -187,7 +187,7 @@ p { color: var(--muted); }
 .offer-list li { position: relative; padding-left: 22px; color: #fff; font-size: 12px; font-weight: 700; line-height: 1.2; }
 .offer-list li::before { position: absolute; top: -2px; left: 0; color: #36f65b; content: '+'; font-size: 20px; font-weight: 800; line-height: 1; }
 .price-zone { display: flex; flex-direction: column; align-items: center; margin-top: 21px; text-align: center; }
-#checkout { scroll-margin-top: 96px; }
+#checkout { scroll-margin-top: 19px; }
 .old-price { color: #ffa3ad; font-size: 31px; font-weight: 800; line-height: 1; text-decoration: line-through; text-decoration-thickness: 3px; }
 .only { margin: 3px 0 0; color: #f5c3ad; font-size: 19px; font-weight: 800; text-decoration: underline; }
 .new-price { margin: 0 0 14px; color: #2eff44; font-size: 72px; font-weight: 800; letter-spacing: -.07em; line-height: 1; }
