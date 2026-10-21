@@ -216,6 +216,7 @@ p { color: var(--muted); }
 .footer-row p { margin: 0; color: #c7bfc1; font-size: 12px; }
 .footer-row > a:last-child { color: #fff; font-size: 12px; font-weight: 700; text-decoration: none; }
 .mobile-cta { display: none; }
+.mobile-cta[hidden] { display: none; }
 
 @media (min-width: 921px) and (max-width: 1200px) {
   .hero-visual { width: min(580px, 47vw); margin-left: 0; }
